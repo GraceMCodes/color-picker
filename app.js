@@ -1,7 +1,7 @@
-document.getElementById('Red').onclick = changered;
-document.getElementById('Green').onclick = changeGreen;
-document.getElementById('Blue').onclick = changeBlue;
-document.getElementById('Yellow').onclick = changeYellow;
+document.getElementById('#Red').onclick = changeRed;
+document.getElementById('#Green').onclick = changeGreen;
+document.getElementById('#Blue').onclick = changeBlue;
+document.getElementById('#Yellow').onclick = changeYellow;
 
 function changeGreen() {
     document.querySelector('body').style.backgroundColor = '#52C1AA';
